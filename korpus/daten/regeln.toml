@@ -1,0 +1,10 @@
+# Konstruktionsregeln. ALLE WERTE SIND PLATZHALTER und von Mario zu bestätigen.
+# Bauweise im Code: Seiten durchgehend, Boden und Deckel zwischen den Seiten,
+# Rückwand ringsum genutet.
+
+nut_tiefe = 8                  # Rückwand greift so tief in die Nut (mm)
+rueckwand_rueckstand = 20      # Abstand Nut zur Hinterkante (mm)
+einlegeboden_ruecksprung = 20  # Einlegeboden vorn zurückgesetzt (mm)
+einlegeboden_luft = 1          # Luft je Seite (mm)
+min_breite = 200               # schmalster zulässiger Korpus (mm)
+min_hoehe = 300                # niedrigste zulässige Korpushöhe (mm)

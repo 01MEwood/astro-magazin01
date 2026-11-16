@@ -1,0 +1,23 @@
+# Bibliothek: Materialien und Korpustypen. Einträge sind Beispiele,
+# die echte Liste kommt von Mario.
+
+[material.weiss19]
+name = "Dekorspan weiß 19"
+staerke = 19
+
+[material.eiche19]
+name = "Eiche furniert 19"
+staerke = 19
+
+[material.hdf8]
+name = "HDF weiß 8"
+staerke = 8
+
+[typ.Regal]
+einlegeboeden = 4
+
+[typ.Kleiderschrank]
+einlegeboeden = 1
+kleiderstange = true
+
+[typ.Leer]

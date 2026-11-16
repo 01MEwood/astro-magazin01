@@ -1,0 +1,29 @@
+# Schrankzeile vor dem Kniestock: die Schräge läuft an der Rückwand hoch.
+
+[raum]
+breite = 2400
+hoehe = 2400
+
+[raum.schraege]
+richtung = "hinten"
+kniestock = 900
+neigung = 40
+
+[zeile]
+tiefe = 900
+passleiste_links = 30
+passleiste_rechts = 30
+passleiste_oben = 20
+sockel = 80
+material = "weiss19"
+rueckwand = "hdf8"
+
+[[korpus]]
+typ = "Regal"
+hoehe = 1400
+einlegeboeden = 3
+
+[[korpus]]
+typ = "Regal"
+hoehe = 1400
+einlegeboeden = 3

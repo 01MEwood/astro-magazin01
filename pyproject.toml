@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "hop-werkzeug"
 version = "0.1.0"
 description = "Liest und schreibt .hop-Dateien und erzeugt CNC-Programme aus Korpuswerk-Bauteilen"
-requires-python = ">=3.10"
+requires-python = ">=3.11"
 dependencies = []
 
 [project.optional-dependencies]
@@ -16,7 +16,10 @@ dev = ["pytest>=8"]
 hop = "hop.__main__:main"
 
 [tool.setuptools]
-packages = ["hop", "post", "nest", "serie", "auswertung"]
+packages = ["hop", "post", "nest", "serie", "auswertung", "korpus"]
+
+[tool.setuptools.package-data]
+korpus = ["daten/*.toml"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

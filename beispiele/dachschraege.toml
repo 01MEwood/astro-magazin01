@@ -1,0 +1,40 @@
+# Schrankzeile unter einer seitlichen Dachschräge (niedrige Seite links).
+# Maße in mm. Korpusse ohne "breite" teilen sich den Rest gleichmäßig.
+
+[raum]
+breite = 4000
+hoehe = 2400
+
+[raum.schraege]
+richtung = "links"    # links, rechts oder hinten
+kniestock = 1000
+neigung = 45          # Grad
+
+[zeile]
+tiefe = 600
+passleiste_links = 40
+passleiste_rechts = 40
+passleiste_oben = 20
+sockel = 80
+material = "weiss19"
+rueckwand = "hdf8"
+
+[[korpus]]
+typ = "Regal"
+breite = 680
+einlegeboeden = 2
+
+[[korpus]]
+typ = "Regal"
+breite = 680
+
+[[korpus]]
+typ = "Kleiderschrank"
+
+[[korpus]]
+typ = "Kleiderschrank"
+material = "eiche19"
+
+[[korpus]]
+typ = "Regal"
+material_je_teil = { "Seite rechts" = "eiche19" }
